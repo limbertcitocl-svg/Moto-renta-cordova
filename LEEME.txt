@@ -1,0 +1,15 @@
+MOTO RENTA CÓRDOVA — PROYECTO BASE
+
+Este proyecto es independiente de CORDOVA Electricidad Automotriz.
+
+CONTENIDO
+- www/index.html: aplicación web base de MOTO RENTA CÓRDOVA.
+- package.json y capacitor.config.json: configuración de Capacitor 7.
+- .github/workflows/compilar-apk.yml: flujo inicial para compilar un APK de prueba en GitHub Actions.
+
+IMPORTANTE
+1. Este ZIP contiene el proyecto base, no un APK ya compilado.
+2. La compilación debe probarse en GitHub Actions; pueden aparecer ajustes de compatibilidad que habrá que corregir.
+3. Los datos de la versión base se guardan localmente en el navegador/app. No hay sincronización en la nube.
+4. Los avisos automáticos por WhatsApp y notificaciones en segundo plano todavía no están conectados.
+5. Las siete motos de prueba usan identificadores temporales; después se pueden reemplazar por las placas reales.
