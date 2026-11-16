@@ -52,11 +52,7 @@ jobs:
 
       - name: Sincronizar Android
         run: npx cap sync android
-       - name: Configurar icono de la moto
-        run: |
-          mkdir -p assets
-          cp icon.png assets/logo.png
-          npx --yes @capacitor/assets generate --android --iconBackgroundColor '#000000'
+      
       - name: Compilar APK
         run: |
           cd android
